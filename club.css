@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    font-style: italic;
+  }
+body {
+     background-color: rgb(204, 218, 255);
+     width: 1400px;
+     padding: 5px;
+     margin: 2px;
+    }
+nav {
+        background-color: rgb(64, 201, 255);
+        width: max-width;
+        border: 3px solid rgb(0, 92, 128);
+        padding: 2px;
+        margin: 1px;
+       }
+main {
+        background-color: rgb(255, 204, 252);
+        width: 900px;
+        border: 1px solid green;
+        padding: 5px;
+        margin: 2px;
+       }
+footer {
+        text-align: center;
+        font-style: italic;
+      }
+.active{
+        background-color: rgb(64, 255, 191);
+        list-style-type: none;
+        width: 40px;
+        }
