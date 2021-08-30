@@ -11,12 +11,12 @@ body {
 nav {
         background-color: rgb(64, 201, 255);
         width: max-width;
-        border: 3px solid rgb(0, 92, 128);
+        border: 3px solid rgb(0, 128, 96);
         padding: 2px;
         margin: 1px;
        }
 main {
-        background-color: rgb(255, 204, 252);
+        background-color: rgb(204, 241, 255);
         width: 900px;
         border: 1px solid green;
         padding: 5px;
@@ -27,7 +27,7 @@ footer {
         font-style: italic;
       }
 .active{
-        background-color: rgb(64, 255, 191);
+        background-color: rgb(64, 131, 255);
         list-style-type: none;
         width: 40px;
         }
