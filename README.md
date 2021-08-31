@@ -2,7 +2,7 @@
 
 **NetID**: nj6956
 
-# Homework #1 Solution
+# Homework #2 Solution
 
 ## Question 1
 ### (a)
