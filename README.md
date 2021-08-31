@@ -5,22 +5,73 @@
 # Homework #2 Solution
 
 ## Question 1
-### (a)
+### 1(a)
 
 ![Screen Shot Example](images/GitHubRepoView.JPG)
 
-### (b)
+### 1(b)
 ![Screen Shot Example](images/LocalDirectoryView.JPG)
+### 1(c)
+![Screen Shot Example](images/HomePageContent.PNG)
+### 1(d)
+![Screen Shot Example](images/LoginPageContent.PNG)
+### 1(e)
+![Screen Shot Example](images/ActivitiesPageContent.PNG)
 ## Question 2
-### (a)
-### (b)
-![Screen Shot Example](images/GitCommandLineHistory.JPG)
-### (c)
-![Screen Shot Example](images/GitHubViewOfChangedREADME.md.JPG)
-## Question 3
-### (a)
+### 2(a)
+a )  Should we put header h1inside or outside the <main> element according to the specification?
 
-### (b)
+Answer: We souldn't put header under main tag.
+
+### 2(b)
+
+Is it okay to put the <footer> in <main>? What about as the last item in the <body>? Would you prefer one over the other? Why? Add a <footer> to all your pages containing the copyright symbol 
+
+Answer: We souldn't put footer under main tag and last element would be some contenet of a page.
+
+### 2(c)
+![Screen Shot Example](images/HomePageWithNavigationMenu.PNG)
+
+### 2(d)
+```javascript
+#HTML Activites Page
+<!DOCTYPE html>
+<html lang="en"> <!-- English -->
+    <head>
+        <title>Activities</title>
+        <h1> Club Activities </h1>
+    </head>
+    <header><h1> Fremont Travellers Club </h1> </header> 
+    <!-- I'm an HTML comment -->
+    <body>
+        <nav>
+            <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="activities.html">Activities</a></li>
+                    <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav> 
+        <main>
+            <p> <h2>Activities</h2>
+                <ul>
+                    <li>Treakings</li>
+                    <li>WaterGames</li>
+                    <li>Boating(or)Sailing</li>
+                </ul> 
+            </p>
+        </main>
+    </body>
+    <footer>&#169 2021 TravellersClub</footer>
+</html>
+```
+## Question 3
+### 3(a)
+(i) To convert to Integer and NaN is nothing but Not a Number here we  we are trying to convert String to Integer so we got NaN as output
+![Screen Shot Example](images/NaN.JPG)
+
+
+
+### 3(b)
 
 ## Question 4
 ### (a)
