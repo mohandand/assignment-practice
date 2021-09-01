@@ -69,10 +69,57 @@ Answer: We souldn't put footer under main tag and last element would be some con
 (i) To convert to Integer and NaN is nothing but Not a Number here we  we are trying to convert String to Integer so we got NaN as output
 ![Screen Shot Example](images/NaN.JPG)
 
+(ii)Bleow method wil convert until the first alphabet.
 
+![Screen Shot Example](images/3a-ii.JPG)
 
+(iii) Below method will convert binary number into Integer number
+
+![Screen Shot Example](images/3a-iii.JPG)
+
+(iii) its different as here it is a sting as it statred with other than number
+
+![Screen Shot Example](images/NaN.JPG)
+
+(iv) No , here input is started with alphabet so it  is provided output as NaN.
+
+![Screen Shot Example](images/3a-4.JPG)
+
+(v) it is same as 
+
+![Screen Shot Example](images/3a-5.JPG)
 ### 3(b)
 
+(i) To convert to Integer and NaN is nothing but Not a Number here we  we are trying to convert String to Integer so we got NaN as output
+![Screen Shot Example](images/NaN.JPG)
+
+(ii)Bleow method wil convert until the first alphabet.
+
+![Screen Shot Example](images/3a-ii.JPG)
+
+(iii) Below method will convert binary number into Integer number
+
+![Screen Shot Example](images/3a-iii.JPG)
+### 3(b)
+->
+
+->
+
+->
+
+->
+
+
+(i) To convert to Integer and NaN is nothing but Not a Number here we  we are trying to convert String to Integer so we got NaN as output
+![Screen Shot Example](images/NaN.JPG)
+
+(ii)Bleow method wil convert until the first alphabet.
+
+![Screen Shot Example](images/3a-ii.JPG)
+
+(iii) Below method will convert binary number into Integer number
+
+![Screen Shot Example](images/3a-iii.JPG)
 ## Question 4
 ### (a)
 1. Java
