@@ -30,8 +30,87 @@
                     <li>WaterGames</li>
                     <li>Boating(or)Sailing</li>
                 </ul> 
-            </p>
+            </p>          
         </main>
+        <table>
+            <caption><h2>Club Upcoming Events</h2></caption>
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Date</th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Water Park Visit</th>
+                <td>09-10-2021</td>
+                <td>This Event is one day event</td>
+              </tr>
+              <tr>
+                <th id="ROW2">SF Beach Visit</th>
+                <td id="ROW2">09-18-2021</td>
+                <td id="ROW2">This Event is one day event</td>
+              </tr>
+            <tr>
+                <th id="ROW3">Aunmour Treaking</th>
+                <td id="ROW3">09-26-2021</td>
+                <td id="ROW3"> This Event is one day event</td>
+              </tr>
+            </tbody>
+          </table>
     </body>
+    <br>
+    <br>
     <footer>&#169 2021 TravellersClub</footer>
 </html>
+
+let result = states.reduce((acc,stats) => acc + 1, 0 );
+
+console.log(result);
+
+toatlpop = 0;
+
+
+for (i=0 ; i <states.length ; i++)
+{
+    toatlpop += states[i].population;
+}
+console.log(toatlpop);
+
+
+let totalpopulation = states.reduce((acc,stats) => acc + stats.population,0 )
+
+console.log(totalpopulation);
+
+function sum(n) {
+   return n.population;
+}
+let res = states.map(sum);
+console.log(res);
+
+let res1 = states.map(function(n){return n.population;});
+console.log(res1);
+
+let res2 = states.map(n => n.population);
+
+console.log(res2);
+
+let res3 = states.sort((a,b) => (b.population - a.population));
+
+let res4 = res3.map(function(n){return n.state;});
+console.log(res4.slice(0,5));
+console.log(res3.slice(0,5));
+</script>
+</body>
+</html>
+
+let result = states.reduce((acc,stats) => acc + 1, 0 );
+
+console.log(result);
+
+
+
+let totalpopulation = states.reduce((acc,stats) => acc + stats.population,0 )
+
+console.log(totalpopulation);

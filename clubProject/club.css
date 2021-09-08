@@ -10,18 +10,18 @@ body {
     }
 nav {
         background-color: rgb(64, 201, 255);
-        width: max-width;
-        border: 5px solid rgb(0, 128, 96);
-        padding: 2px;
+        width: 740px;
+        border:3px solid rgb(0, 128, 96);
+        padding: 0px;
         margin: 1px;
         list-style-type: none;
         text-decoration: none;
        }
 main {
         background-color: rgb(204, 255, 231);
-        width: 900px;
+        width: 740px;
         border: 1px solid green;
-        padding: 5px;
+        padding: 2px;
         margin: 2px;
        }
      
@@ -43,4 +43,28 @@ footer{
         text-align: center;
         font-style: italic;
         font-size: 1.2em;
+      }
+  img {
+        border-radius: 8px;
+        height: 400px;
+        border-radius: 4px;
+        padding: 5px;
+        width: 740px;
+      }
+  table, td, th {
+        border: 3px solid blueviolet;
+        text-align: left;
+        padding: 8px;
+      }
+      
+table {
+        width: 100%;
+        border-collapse: collapse;
+        width: 50%;
+      }      
+#ROW2{
+        background-color: rgb(64, 255, 214);
+      }
+#ROW3{
+        background-color: rgb(64, 147, 255);
       }
